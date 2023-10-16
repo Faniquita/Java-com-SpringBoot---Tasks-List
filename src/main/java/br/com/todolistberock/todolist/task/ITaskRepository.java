@@ -7,5 +7,5 @@ import java.util.List;
 
 // Retorna a lista de Taks de acordo com o usuário
 public interface ITaskRepository extends JpaRepository<TaskModel, UUID>{
-    List<TaskModel> findByIdUser(UUID idUser);
+    List<TaskModel> findByIdUser(UUID idUser);    
 }
